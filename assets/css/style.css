@@ -1,43 +1,112 @@
 /* Google Fonts, Lora and Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Lora', serif;
-    --primary-color: #040404; /* Grey */
-    --secondary-color: #acacac; /* light grey */
-    --thirdly-color:#ffffff; /* White */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Lora", serif;
+  --primary-color: #040404; /* Grey */
+  --secondary-color: #acacac; /* light grey */
+  --thirdly-color: #ffffff; /* White */
 }
 
 /* Global styles */
 
 body {
-    display: flex;
-    flex-direction: column;
-min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-h1, h2, h3 {
-    font-family: var(--secondary-font);
-    color:var(--primary-color)
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
 }
 
 /* Header */
 header {
-    background-color: var(--primary-color);
-
+  color: lightblue;
 }
 
+#logo {
+  text-align: center;
+}
+
+#logo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.navbar-brand img {
+  margin: 10px;
+}
+
+/*.nav-item {
+    margin-right: 50px; /* Increase margin on the right 
+}*/
+
+.navbar-nav .nav-item {
+  margin-right: 1rem; /* default for mobile */
+}
 
 /* Main */
 main {
-    background-color:var(--secondary-color);
-    /* Make main elemnt take up the remaining space */
-    flex-grow: 1;
+  background-color: var(--secondary-color);
+  /* Make main elemnt take up the remaining space */
+  flex-grow: 1;
+}
+
+.hero-img {
+    background-image: url('../images/pexels-sebastian-411207.jpg');
+    background-size: cover;
+    background-position: center bottom 10px; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh; 
+    position: relative; 
+  }
+
+.hero-img h1 {
+    color: var(--primary-color);
+    position: absolute; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);     
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    position: static; 
+    transform: none; 
+    left: auto;
+  }
+
+  .navbar {
+ 
+    position: relative; 
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 2.5rem; 
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  #logo h1 {
+    text-align: center; 
+    font-size: 1.8rem; 
+
+  }
 }
 
 /* Footer */
 footer {
-    background-color: var(--thirdly-color);
+  background-color: var(--thirdly-color);
 }
