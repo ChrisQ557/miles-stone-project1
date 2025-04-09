@@ -5,9 +5,12 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Lora", serif;
-  --primary-color: #040404; /* Grey */
-  --secondary-color: #acacac; /* light grey */
-  --thirdly-color: #ffffff; /* White */
+  --primary-color: #040404;
+  /* Grey */
+  --secondary-color: #acacac;
+  /* light grey */
+  --thirdly-color: #ffffff;
+  /* White */
 }
 
 /* Global styles */
@@ -24,6 +27,14 @@ h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
+
+/* N */
+#navbar {
+  background-color: #8B0000; /* dark red */
+  
+}
+
+
 
 /* Header */
 header {
@@ -48,7 +59,8 @@ header {
 }*/
 
 .navbar-nav .nav-item {
-  margin-right: 1rem; /* default for mobile */
+  margin-right: 1rem;
+  /* default for mobile */
 }
 
 /* Main */
@@ -59,49 +71,49 @@ main {
 }
 
 .hero-img {
-    background-image: url('../images/pexels-sebastian-411207.jpg');
-    background-size: cover;
-    background-position: center bottom 10px; 
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh; 
-    position: relative; 
-  }
+  background-image: url('../images/pexels-sebastian-411207.jpg');
+  background-size: cover;
+  background-position: center bottom 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
 
 .hero-img h1 {
-    color: var(--primary-color);
-    position: absolute; 
-    top: 10px; 
-    left: 50%;
-    transform: translateX(-50%);     
+  color: var(--primary-color);
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media (min-width: 992px) {
   .navbar .navbar-brand {
-    position: static; 
-    transform: none; 
+    position: static;
+    transform: none;
     left: auto;
   }
 
   .navbar {
- 
-    position: relative; 
+
+    position: relative;
   }
 
   .navbar-nav .nav-item {
-    margin-right: 2.5rem; 
+    margin-right: 2.5rem;
   }
 
   #logo {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
   }
 
   #logo h1 {
-    text-align: center; 
-    font-size: 1.8rem; 
+    text-align: center;
+    font-size: 1.8rem;
 
   }
 }
