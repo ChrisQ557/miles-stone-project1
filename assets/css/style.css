@@ -61,9 +61,7 @@ header {
   margin: 10px;
 }
 
-/*.nav-item {
-    margin-right: 50px; /* Increase margin on the right 
-}*/
+
 
 .navbar-nav .nav-item {
   margin-right: 1rem;
@@ -119,12 +117,47 @@ main {
   padding: 10px;
 }
 
-#grid-section img{
-  border-radius: 15px; /* Adjust the value to control how rounded the corners are */
-  width: 100%; /* Ensure the image fits its container */
-  max-width: 300px; /* Control the max width of the images */
-  object-fit: cover; /* 
+.grid-section img{
+  border-radius: 15px; 
+  width: 100%; 
+  max-width: 300px; 
+  object-fit: cover;  
 }
+
+
+.grid-section h3 {
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem; 
+}
+
+.grid-section p {
+  font-size: 1rem; 
+  line-height: 1.6; 
+  margin-bottom: 1.5rem; 
+}
+
+.grid-section ol {
+  text-align: left; 
+  margin-left: 1.5rem; 
+}
+
+.grid-section li {
+  margin-bottom: 1rem;
+  list-style-type: disc; 
+}
+
+.grid-section .p-3 {
+  padding: 1.5rem; 
+}
+
+
+.grid-section .bg-light {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 
 /* Services */
@@ -142,7 +175,7 @@ main {
 
 /* Contact section */ 
 #contact {
-  background-color: #f3f2ef; /* Soft neutral that blends with your design */
+  background-color: #f3f2ef; 
 }
 
 #contact input,
@@ -191,8 +224,8 @@ main {
   #navbarNav {
     position: absolute;
     top: 100%;
-    right: 1rem; /* Align under burger icon */
-    background-color: #ffffff; /* Light background for dropdown */
+    right: 1rem; 
+    background-color: #ffffff; 
     width: auto;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
@@ -209,7 +242,7 @@ main {
   }
 
   #navbarNav .nav-link {
-    color: #333; /* Choose a text color that contrasts well */
+    color: #333; 
   }
 }
 
