@@ -119,6 +119,13 @@ main {
   padding: 10px;
 }
 
+#grid-section img{
+  border-radius: 15px; /* Adjust the value to control how rounded the corners are */
+  width: 100%; /* Ensure the image fits its container */
+  max-width: 300px; /* Control the max width of the images */
+  object-fit: cover; /* 
+}
+
 
 /* Services */
 #services {
