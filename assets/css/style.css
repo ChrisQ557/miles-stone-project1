@@ -21,9 +21,12 @@ body {
   min-height: 100vh;
 }
 
-h1,
+h1 {
+  font-family: var(--primary-font);
+}
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
@@ -100,6 +103,10 @@ main {
   padding: 10px;
 }
 
+#services {
+  background-color: #f5f1ea;
+  padding: 20px;
+}
 
 
 
