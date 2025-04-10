@@ -247,9 +247,36 @@ main {
 }
 
 /* Footer */
+/* Footer Styling */
 footer {
-  background-color: var(--thirdly-color);
+  background-color: #343a40; /* Dark background for the footer */
+  color: #fff; /* White text color */
 }
+
+/* Social Media Icons Container */
+.social-media-links {
+  margin-bottom: 1rem; /* Space between icons and the copyright text */
+}
+
+/* Social Media Icon Style */
+.social-icon {
+  color: #fff; /* White icons */
+  font-size: 1.5rem; /* Size of the icons */
+  margin: 0 15px; /* Space between icons */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change icon color on hover (optional) */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Footer Text */
+footer p {
+  margin-top: 1rem;
+  font-size: 0.9rem; /* Slightly smaller text for copyright */
+}
+
 
 .hidden {
   display: none;
