@@ -95,6 +95,13 @@ main {
   transform: translateX(-50%);
 }
 
+/* Call to action */
+cta {
+  background-color: rgb(11, 67, 86);
+  padding: 20px;
+  text-align: center;
+}
+
 /* About section */
 .bg-about {
   background-color: #f2f2f2;
@@ -126,9 +133,23 @@ main {
   text-align: center;
 }
 
+/* Contact section */ 
+#contact {
+  background-color: #f3f2ef; /* Soft neutral that blends with your design */
+}
+
+#contact input,
+#contact textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  border-radius: 8px;
+}
 
 
-
+/* Media Queries */
 @media (min-width: 992px) {
   .navbar .navbar-brand {
     position: static;
