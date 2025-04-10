@@ -96,7 +96,7 @@ main {
 }
 
 /* Call to action */
-cta {
+#cta {
   background-color: rgb(11, 67, 86);
   padding: 20px;
   text-align: center;
@@ -177,6 +177,32 @@ cta {
     text-align: center;
     font-size: 1.8rem;
 
+  }
+}
+
+@media (max-width: 992px) {
+  #navbarNav {
+    position: absolute;
+    top: 100%;
+    right: 1rem; /* Align under burger icon */
+    background-color: #ffffff; /* Light background for dropdown */
+    width: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+  }
+
+  #navbarNav .navbar-nav {
+    flex-direction: column;
+  }
+
+  #navbarNav .nav-item {
+    margin: 0.25rem 0;
+  }
+
+  #navbarNav .nav-link {
+    color: #333; /* Choose a text color that contrasts well */
   }
 }
 
