@@ -210,3 +210,7 @@ main {
 footer {
   background-color: var(--thirdly-color);
 }
+
+.hidden {
+  display: none;
+}
