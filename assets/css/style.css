@@ -175,6 +175,12 @@ main > * {
   padding-bottom: 3rem;  
 }
 
+/* Carousel */
+.carousel img {
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
 /* Services */
 #services {
