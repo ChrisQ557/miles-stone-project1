@@ -141,19 +141,19 @@ main > * {
 .grid-section h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  /*margin-bottom: 1rem;*/
+  
    
 }
 
 .grid-section p {
   font-size: 1rem;
   line-height: 1.6;
-  /*margin-bottom: 1.5rem;*/
+  
 }
 
 .grid-section ol {
   text-align: left;
-  /*margin-left: 1.5rem;*/
+ 
 }
 
 .grid-section li {
@@ -184,6 +184,10 @@ main > * {
 #services {
   background-color: var(--light-bg-color);
   padding: 20px;
+}
+
+#services li {
+  list-style-type: none;
 }
 
 /* Footer */
