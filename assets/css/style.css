@@ -323,5 +323,18 @@ footer p {
   border-radius: 0.5rem;
 }
 
+/* Join Section Page */
+.join-section {
+  background-image: url('../images/pexels-yaroslav-shuraev-6184481.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.join-section form {
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
 
 
