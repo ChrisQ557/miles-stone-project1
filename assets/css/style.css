@@ -323,9 +323,12 @@ footer p {
   border-radius: 0.5rem;
 }
 
-.booking-section h2, p, label {
+.booking-section h2, 
+.booking-section p, 
+.booking-section label {
   color: white;
 }
+
 
 /* Join Section Page */
 .join-section {
