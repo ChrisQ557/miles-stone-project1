@@ -25,14 +25,14 @@ body {
   min-height: 100vh;
   background-color: var(--tertiary-color);
   color: var(--primary-color);
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
 }
 
 
 h1,
 h2,
 h3, {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   color: var(--primary-color);
 }
 
@@ -321,6 +321,10 @@ footer p {
   background-color: rgba(0, 0, 0, 0.6); 
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+.booking-section h1, p, label {
+  color: white;
 }
 
 /* Join Section Page */
