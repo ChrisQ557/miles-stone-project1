@@ -36,6 +36,7 @@ h3, {
   color: var(--primary-color);
 }
 
+
 /* Navbar */
 #navbar {
   background-color: var(--accent-muted);
@@ -312,27 +313,27 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white; /* Optional: Makes the text more readable */
 }
 
 .booking-section form,
 .booking-section h1,
 .booking-section p {
-  background-color: rgba(0, 0, 0, 0.6); /* Optional: dark overlay for readability */
+  background-color: rgba(0, 0, 0, 0.6); 
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
 /* Join Section Page */
 .join-section {
-  background-image: url('../images/pexels-yaroslav-shuraev-6184481.jpg');
+  background-image: url('../images/pexels-cedric-fauntleroy-7220585.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  height: 100vh; 
 }
-
+}
 .join-section form {
-  background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+  background-color: rgba(0, 0, 0, 0.6); 
   padding: 2rem;
   border-radius: 0.5rem;
 }
