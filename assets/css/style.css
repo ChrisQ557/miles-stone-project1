@@ -306,3 +306,22 @@ footer p {
   display: none;
 }
 
+/* Booking Section Page */
+.booking-section {
+  background-image: url('../images/pexels-alex-green-5691833.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; /* Optional: Makes the text more readable */
+}
+
+.booking-section form,
+.booking-section h1,
+.booking-section p {
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: dark overlay for readability */
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+
