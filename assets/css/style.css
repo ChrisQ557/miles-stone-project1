@@ -316,14 +316,14 @@ footer p {
 }
 
 .booking-section form,
-.booking-section h1,
+.booking-section h2,
 .booking-section p {
   background-color: rgba(0, 0, 0, 0.6); 
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-.booking-section h1, p, label {
+.booking-section h2, p, label {
   color: white;
 }
 
@@ -335,8 +335,10 @@ footer p {
   background-position: top;
   height: 80vh; 
 }
-}
-.join-section form {
+
+.join-section form, 
+.join-section h2, 
+.join-section p {
   background-color: rgba(0, 0, 0, 0.6); 
   padding: 2rem;
   border-radius: 0.5rem;
