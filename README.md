@@ -65,19 +65,228 @@ It is fully responsive and built with accessibility and simplicity in mind.
 
 ## 💡 Pages Breakdown
 
-### `index.html`
-- Main landing page
-- Features club logo, navbar, and carousel
+## `index.html`
 
-### `join.html`
-- Form for joining the club
-- Includes name, email, interest area, etc.
-- Form pushes footer to bottom using flexbox
+### 1. 🧠 Head Section (`<head>`)
+- Meta tags:
+  - UTF-8 charset
+  - Responsive viewport
+- Page Title: **Chess Club**
+- Styles & Fonts:
+  - Bootstrap 5 CSS
+  - Google Fonts (Lora, Open Sans)
+  - Custom Stylesheet (`styles.css`)
+- Bootstrap JS bundle (included at bottom)
 
-### `book.html`
-- Allows booking of club activities
-- Date/time selection with modern UI
-- Background image fills screen without overflow
+---
+
+### 2. 🧭 Navigation Bar (`<nav>`)
+- Sticky-top, responsive Bootstrap navbar
+- Logo: “Chess Club”
+- Navigation links:
+  - Home
+  - About
+  - Services
+  - Community
+  - Tournaments
+  - Contact
+
+---
+
+### 3. 🏁 Hero Section (`#hero`)
+- Centered hero message
+- Elements:
+  - Main heading: “Welcome to Our Chess Club”
+  - Supporting paragraph
+  - Two buttons:
+    - ✅ Book Now → `book.html`
+    - ♟️ Join the Club → `join.html`
+
+---
+
+### 4. 📘 About Us Section (`#about`)
+- Two-column layout (text + image)
+- Elements:
+  - Heading: “About Our Chess Club”
+  - Short paragraph
+  - Image of players / chess scene
+
+---
+
+### 5. 🎯 Services Section (`#services`)
+- 3 responsive Bootstrap cards
+- Services offered:
+  - ♟️ Lessons
+  - 🏆 Tournaments
+  - 🤝 Community
+- Each card has:
+  - Icon
+  - Heading
+  - Brief description
+
+---
+
+### 6. 🧑‍🤝‍🧑 Community Section (`#community`)
+- Layout: Image + text
+- Includes:
+  - Heading: “A Club for Everyone”
+  - Paragraph description
+  - CTA button: “Join Now” → `join.html`
+
+---
+
+### 7. 💬 Testimonials / Carousel (`#carouselExampleIndicators`)
+- Bootstrap Carousel with indicators
+- Each slide includes:
+  - Testimonial quote
+  - Person's name (e.g., "— Sarah M.")
+
+---
+
+### 8. ♟️ Tournaments Section (`#tournaments`)
+- 3 tournament cards:
+  - Each with:
+    - Title (e.g., “Spring Blitz 2025”)
+    - Date
+    - Short description
+
+---
+
+### 9. 📬 Contact Section (`#contact`)
+- Two-column layout:
+  - Left: Contact form
+    - Name
+    - Email
+    - Message
+    - Send button
+  - Right: Embedded Google Map (club location)
+
+---
+
+### 10. 🦶 Footer
+- Simple centered footer
+- Content:
+  - “© 2025 Chess Club. All rights reserved.”
+
+---
+
+## `book.html`
+
+### 1. 🧠 Head Section (`<head>`)
+- Meta configuration:
+  - Charset: UTF-8
+  - Responsive viewport
+  - SEO tags:
+    - `description`: What the Chess Club offers
+    - `keywords`: Chess-related terms
+    - `author`: Chess Club Team
+- Title: **CHESS CLUB | BOOK**
+- Favicons via `favicon.io`
+- Bootstrap 5 CSS
+- Custom stylesheet: `assets/css/style.css`
+
+---
+
+### 2. 🧭 Header & Navbar (`<header><nav>`)
+- **Navbar Contents**:
+  - Brand logo + “CHESS CLUB” text
+  - Mobile toggler
+  - Navigation Links:
+    - Home → `index.html`
+    - **Book** → `book.html` (active)
+    - Join → `join.html`
+
+---
+
+### 3. 📆 Booking Section (`<section class="booking-section">`)
+- Centered heading:
+  - Title: “Book a Session”
+  - Subtitle: Booking prompt
+- **Booking Form**:
+  - Name (`<input type="text">`)
+  - Email (`<input type="email">`)
+  - Booking Type (`<select>`)
+    - Options: Private Lesson, Group Class, Tournament Entry, Facility Booking
+  - Date & Time (`<input type="datetime-local">`)
+  - Additional Notes (`<textarea>`)
+  - Submit button: “Submit Booking”
+
+---
+
+### 4. 🦶 Footer (`<footer>`)
+- Dark background with white text
+- Social icons (Font Awesome):
+  - Facebook
+  - Instagram
+  - Twitter
+- Copyright:
+  - “© 2025 Chess Club. All rights reserved.”
+
+---
+
+### 5. ⚙️ Scripts
+- Bootstrap Bundle JS (CDN)
+- Font Awesome Kit (for icons)
+
+---
+
+## `join.html`
+
+### 1. 🧠 Head Section (`<head>`)
+- Meta setup:
+  - Charset: UTF-8
+  - Viewport: responsive
+  - SEO Tags:
+    - `description`: summary of the page's purpose
+    - `keywords`: chess-related terms
+    - `author`: Chess Club Team
+- Title: **CHESS CLUB | JOIN**
+- Favicons from `favicon.io`
+- Bootstrap 5 CSS
+- Custom CSS (`style.css`)
+
+---
+
+### 2. 🧭 Header & Navbar (`<header><nav>`)
+- **Navbar** includes:
+  - Logo image + title: “CHESS CLUB”
+  - Mobile-friendly toggler
+  - Links:
+    - Home → `index.html`
+    - Book → `book.html`
+    - **Join** → `join.html` (active)
+
+---
+
+### 3. 📝 Join Form Section (`<section class="join-section">`)
+- Centered content with dark background & white text
+- Heading: “Join the Chess Club”
+- Subheading: form prompt
+
+### 🧾 Form Fields
+- Full Name (`<input type="text">`)
+- Email Address (`<input type="email">`)
+- "Why do you want to join?" (`<textarea>`)
+- Membership Type (`<select>`)
+  - Options: Regular, Student, Family
+- Submit Button: “Submit Application”
+
+---
+
+### 4. 🦶 Footer (`<footer>`)
+- Dark background, white text
+- Social media icons (using Font Awesome):
+  - Facebook
+  - Instagram
+  - Twitter
+- Copyright:
+  - “© 2025 Chess Club. All rights reserved.”
+
+---
+
+### 5. ⚙️ Scripts
+- Bootstrap JS Bundle
+- Font Awesome Kit (for social icons)
 
 ---
 
