@@ -305,7 +305,7 @@ It is fully responsive and built with accessibility and simplicity in mind.
 
 1. **Clone or download the project**
    ```bash
-   git clone https://github.com/yourusername/chess-club-website.
+   git clone https://github.com/miles-stone-project1
 
 Navigate to the folder and open index.html in your browser
 No build step or dependencies needed — it's pure HTML/CSS with Bootstrap CDN.
@@ -336,6 +336,8 @@ Customize layout/colors in assets/css/style.css
 Built with care by Christopher Quinones.
 
 Want to collaborate, suggest features, or report bugs? Open an issue or contact via email.
+
+[E-mail](mailto:517996@waes.ac.uk)
 
 ---
 
