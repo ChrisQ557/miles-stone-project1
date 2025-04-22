@@ -337,7 +337,7 @@ Built with care by Christopher Quinones.
 
 Want to collaborate, suggest features, or report bugs? Open an issue or contact via email.
 
-[E-mail](mailto:517996@waes.ac.uk)
+[517996@waes.ac.uk](517996@waes.ac.uk)
 
 ---
 
@@ -347,7 +347,7 @@ Want to collaborate, suggest features, or report bugs? Open an issue or contact 
 
 - favicon.io
 
-- pexels.com and unsplush.com for demo images
+- [pexels.com](pexels.com) and [unsplush.com](unplush.com) for demo images
 
 
 

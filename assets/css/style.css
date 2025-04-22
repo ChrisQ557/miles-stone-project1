@@ -280,6 +280,18 @@ footer a:hover {
   }
 }
 
+/* Move form left on Book page and move form right on Join page with media query as undesired behaviour was caused on other screen sizes */
+@media (min-width: 1400px) {
+  .form-shift-left {
+    margin-left: -4rem;
+  }
+
+  .form-shift-right {
+    margin-right: -4rem;
+    margin-left: auto;
+  }
+}
+
 /* Social Media Icons */
 .social-media-links {
   margin-bottom: 1rem;
@@ -312,7 +324,7 @@ footer p {
   background-image: url('../images/pexels-alex-green-5691833.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .booking-section form,
@@ -336,7 +348,7 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height: 80vh; 
+  /*height: 80vh;*/
 }
 
 .join-section form, 
@@ -347,3 +359,4 @@ footer p {
   border-radius: 0.5rem;
   color: white;
 }
+
