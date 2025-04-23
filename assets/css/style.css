@@ -91,7 +91,7 @@ main > * {
   position: relative;
 }
 
-.hero-img h1 {
+.hero-img p {
   color: var(--primary-color);
   position: absolute;
   top: 10px;
@@ -220,7 +220,7 @@ footer a:hover {
 }
 
 /* Media Queries */
-@media (min-width: 992px) {
+@media (min-width: < 992px) {
   .navbar .navbar-brand {
     position: static;
     transform: none;
@@ -248,7 +248,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: >= 992px) {
   #navbarNav {
     position: absolute;
     top: 100%;
