@@ -5,16 +5,16 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Lora", serif;
-  
-  --primary-color: #2b2626;        /* Mine Shaft */
-  --secondary-color: #714644;      /* Ferra */
-  --tertiary-color: #bcbcb4;       /* Gray Nickel */
-  --highlight-color: #bcb4b5;      /* Pink Swan */
-  --light-bg-color: #d6d6d6;       /* Alto */
-  --text-gray: #818181;            /* Gray */
-  --soft-accent: #a4a49c;          /* Delta */
-  --neutral-bg: #706c64;           /* Flint */
-  --accent-muted: #a69494;         /* Dusty Gray */
+
+  --primary-color: #2b2626; /* Mine Shaft */
+  --secondary-color: #714644; /* Ferra */
+  --tertiary-color: #bcbcb4; /* Gray Nickel */
+  --highlight-color: #bcb4b5; /* Pink Swan */
+  --light-bg-color: #d6d6d6; /* Alto */
+  --text-gray: #818181; /* Gray */
+  --soft-accent: #a4a49c; /* Delta */
+  --neutral-bg: #706c64; /* Flint */
+  --accent-muted: #a69494; /* Dusty Gray */
 }
 
 /* Global styles */
@@ -28,18 +28,16 @@ body {
   font-family: var(--secondary-font);
 }
 
-
 h1,
 h2,
-h3, {
+h3 {
   font-family: var(--primary-font);
   color: var(--primary-color);
 }
 
-
 /* Navbar */
 #navbar {
-  background-color: var(--accent-muted);
+  background-color: var(--text-gray);
 }
 
 .navbar .nav-link {
@@ -84,7 +82,7 @@ main > * {
 }
 
 .hero-img {
-  background-image: url('../images/pexels-sebastian-411207.jpg');
+  background-image: url("../images/pexels-sebastian-411207.jpg");
   background-size: cover;
   background-position: center bottom 10px;
   background-repeat: no-repeat;
@@ -138,19 +136,15 @@ main > * {
 .grid-section h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  
-   
 }
 
 .grid-section p {
   font-size: 1rem;
   line-height: 1.6;
-  
 }
 
 .grid-section ol {
   text-align: left;
- 
 }
 
 .grid-section li {
@@ -172,8 +166,8 @@ main > * {
 }
 
 .grid-section {
-  padding-top: 3rem;  
-  padding-bottom: 3rem;  
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* Carousel */
@@ -321,7 +315,7 @@ footer p {
 
 /* Booking Section Page */
 .booking-section {
-  background-image: url('../images/pexels-alex-green-5691833.jpg');
+  background-image: url("../images/pexels-alex-green-5691833.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -330,33 +324,31 @@ footer p {
 .booking-section form,
 .booking-section h2,
 .booking-section p {
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-.booking-section h2, 
-.booking-section p, 
+.booking-section h2,
+.booking-section p,
 .booking-section label {
   color: white;
 }
 
-
 /* Join Section Page */
 .join-section {
-  background-image: url('../images/pexels-cedric-fauntleroy-7220585.jpg');
+  background-image: url("../images/pexels-cedric-fauntleroy-7220585.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   /*height: 80vh;*/
 }
 
-.join-section form, 
-.join-section h2, 
+.join-section form,
+.join-section h2,
 .join-section p {
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   border-radius: 0.5rem;
   color: white;
 }
-
