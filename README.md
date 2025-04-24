@@ -307,8 +307,11 @@ It is fully responsive and built with accessibility and simplicity in mind.
    ```bash
    git clone https://github.com/miles-stone-project1
 
-Navigate to the folder and open index.html in your browser
+Navigate to the folder and open index.html in your browser.
 No build step or dependencies needed — it's pure HTML/CSS with Bootstrap CDN.
+
+## 👀 View the Project
+- [View the deployed website](https://chrisq557.github.io/miles-stone-project1/)
 
 ---
 
