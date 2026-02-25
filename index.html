@@ -27,49 +27,84 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-  <!-- Header -->
-   <h1 class="hidden">Header</h1>
-  <header>
-    <nav class="navbar navbar-expand-lg" id="navbar">
-      <div class="container-fluid">
-        <!-- Left spacer -->
-        <div class="d-lg-none d-flex" style="width: 40px;"></div>
+<!-- Header -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-light position-relative">
+    <div class="container">
 
-        <!-- Center logo -->
-        <div class="navbar-brand mx-auto text-center" id="logo">
-          <div class="d-flex align-items-center justify-content-center">
-            <img src="assets/images/B1E73C30-6159-41FC-AB02-63A1F3CA3BD3.jpg"
-                 alt="Chess Club Logo"
-                 width="40" height="40"
-                 class="rounded-circle border border-dark shadow me-2">
-            <span class="h4 mb-0">CHESS CLUB</span>
+      <!-- Centered logo, not affected by collapses -->
+      <a class="navbar-brand mx-auto position-absolute start-50 top-50 translate-middle" href="index.html">
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/images/B1E73C30-6159-41FC-AB02-63A1F3CA3BD3.jpg"
+               alt="Chess Club Logo"
+               width="40" height="40"
+               class="rounded-circle border border-dark shadow me-2">
+          <span class="h4 mb-0">CHESS CLUB</span>
+        </div>
+      </a>
+
+      <!-- Burger toggler right-aligned -->
+      <!-- <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand ms-3 d-flex align-items-center">
+            <i class="fa-solid fa-dog me-2"></i> VET CARE <i class="fa-solid fa-cat ms-2"></i>
+          </span> -->
+    
+          <!-- Dropdown Burger Menu -->
+          <div class="dropdown d-lg-none">
+            <button class="navbar-toggler dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end mt-2" aria-labelledby="dropdownMenuButton">
+              <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#dogCare">Dog Care</a></li>
+              <li class="nav-item"><a class="nav-link" href="#catCare">Cat Care</a></li>
+              <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="#book">Book</a></li>
+            </ul>
           </div>
-        </div>
+    
+          <!-- Desktop Nav -->
+           
+          <!-- <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+         
+        
+      </nav>
 
-        <!-- Mobile toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navigation links -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item me-4">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item me-4">
-              <a class="nav-link" href="book.html">BOOK</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="join.html">JOIN</a>
-            </li>
-          </ul>
-        </div>
+      <!-- Collapse menu (does not affect logo placement) -->
+      <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav text-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="book.html">BOOK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">JOIN</a>
+          </li>
+        </ul>
+      </div> -->
+      <div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dogCare">Dog Care</a></li>
+          <li class="nav-item"><a class="nav-link" href="#catCare">Cat Care</a></li>
+          <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#book">Book</a></li>
+        </ul>
       </div>
-    </nav>
-  </header>
 
+    </div>
+  </nav>
+</header>
   <!-- Main content -->
    
   <main>

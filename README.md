@@ -355,3 +355,42 @@ Want to collaborate, suggest features, or report bugs? Open an issue or contact 
 
 
 
+---
+
+## User Experience
+
+### User Information
+
+#### Typical Users
+The main users of the site will be:
+- Visitors (general public curious about the club)
+- Prospective Members (people interested in joining)
+- Current Members (people attending activities and booking sessions)
+- Club Admins (organizers maintaining content and events)
+
+#### User Stories
+
+##### Visitors
+1. As a visitor, I want to quickly understand what the club offers so I can decide if it matches my interests.
+2. As a visitor, I want to browse photos and testimonials so I can get a feel for the club community.
+3. As a visitor, I want clear navigation so I can easily find the Book and Join pages.
+4. As a visitor on mobile, I want a responsive layout so I can comfortably view content on my phone.
+
+##### Prospective Members
+1. As a prospective member, I want to access a Join form so I can express interest in becoming a member.
+2. As a prospective member, I want to understand membership options so I can choose the one that fits me.
+3. As a prospective member, I want reassurance about how my details are used so I feel comfortable submitting the form.
+
+##### Current Members
+1. As a current member, I want to book sessions (lessons, tournaments, events) so I can plan my participation.
+2. As a current member, I want available dates and times to be clear so I can schedule without confusion.
+3. As a current member, I want to provide notes (e.g., preferences) in the booking form so organizers can prepare.
+
+##### Club Admins
+1. As a club admin, I want the site structure to be simple so I can update content (text/images) without complex tooling.
+2. As a club admin, I want clear navigation labels so new visitors can find key actions (Book, Join) without support.
+3. As a club admin, I want consistent styling across pages so the club brand looks professional.
+
+
+
+
