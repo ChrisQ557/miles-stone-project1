@@ -220,7 +220,7 @@ footer a:hover {
 }
 
 /* Media Queries */
-@media (min-width: < 992px) {
+@media (max-width: 991px) {
   .navbar .navbar-brand {
     position: static;
     transform: none;
@@ -246,9 +246,7 @@ footer a:hover {
     text-align: center;
     font-size: 1.8rem;
   }
-}
 
-@media (max-width: >= 992px) {
   #navbarNav {
     position: absolute;
     top: 100%;
