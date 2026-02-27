@@ -220,6 +220,13 @@ footer a:hover {
 }
 
 /* Media Queries */
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 991px) {
   .navbar .navbar-brand {
     position: static;
