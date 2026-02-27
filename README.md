@@ -243,6 +243,76 @@ To update content:
 
 ---
 
+## 🧪 Testing
+
+### Manual Testing
+
+The following tests were carried out manually across all pages of the Chess Club website to ensure functionality, usability, and responsiveness.
+
+| **Test Group** | **Test Label** | **Action** | **Expected Outcome** | **Outcome** |
+|---|---|---|---|---|
+| **Navigation / UX** | Logo home link | From any page, click the Chess Club logo in the header. | The user will be taken back to the home page. | PASS |
+| | Brand name home link | From any page, click the "CHESS CLUB" text in the header. | The user will be taken back to the home page. | PASS |
+| | HOME nav link | From any page, click the HOME link in the navbar. | The user will be taken to the home page. | PASS |
+| | BOOK nav link | From any page, click the BOOK link in the navbar. | The user will be taken to the booking page. | PASS |
+| | JOIN nav link | From any page, click the JOIN link in the navbar. | The user will be taken to the join page. | PASS |
+| | Active nav link highlight | Visit each page and check the active nav link. | The current page's nav link should be visually highlighted as active. | PASS |
+| | Mobile navbar toggler | On a mobile viewport, click the hamburger menu icon. | The navigation links should expand/collapse. | PASS |
+| | Responsive layout | Resize the browser window from desktop to mobile. | The layout should adapt responsively without breaking or horizontal scrolling. | PASS |
+| **Home Page** | Hero section display | Visit the home page. | The hero image should display with the "MASTER YOUR GAME" heading centred over it. | PASS |
+| | Book Now CTA button | From the home page, click the "Book Now" button in the CTA section. | The user will be taken to the booking page. | PASS |
+| | Join the Club CTA button | From the home page, click the "Join the Club" button in the CTA section. | The user will be taken to the join page. | PASS |
+| | Button hover effect | From the home page, hover over the CTA buttons. | The buttons should display a visible hover effect. | PASS |
+| | About Us section | Scroll to the About Us section on the home page. | The section should display the club description text clearly. | PASS |
+| | Grid section display | Scroll to the Strategy, Lessons, Community, and Tournaments grid. | All four cards should display with images, headings, descriptions, and ordered lists. | PASS |
+| | Grid responsive layout | View the grid section on mobile, tablet, and desktop. | Cards should stack on mobile (1 column), display 2 columns on tablet, and 4 columns on desktop. | PASS |
+| **Carousel** | Carousel auto-play | Visit the home page and observe the Club Moments carousel. | The carousel should automatically cycle through the 5 slides. | PASS |
+| | Carousel next button | Click the next (right arrow) button on the carousel. | The carousel should advance to the next slide. | PASS |
+| | Carousel previous button | Click the previous (left arrow) button on the carousel. | The carousel should go back to the previous slide. | PASS |
+| | Carousel images display | View each slide in the carousel. | All 5 images should load and display correctly. | PASS |
+| **Services** | Services section display | Scroll to the Our Services section on the home page. | The 1-on-1 Coaching, Online Tournaments, Workshops & Seminars, and Coffee Shop cards should display. | PASS |
+| | Service icons display | View the services cards. | Each card should display its Font Awesome icon correctly. | PASS |
+| **Contact** | Contact form display | Scroll to the Get in Touch section on the home page. | The contact form with Name, Email, and Message fields should be visible. | PASS |
+| | Contact form required fields | Click "Send Message" without filling in any fields. | The user should be prompted to fill in the first required field. | PASS |
+| | Contact form invalid email | Enter an invalid email (without @) and attempt to submit. | The browser should prompt the user to enter a valid email address. | PASS |
+| | Contact form submit with valid data | Fill in all fields with valid data and click "Send Message". | The form should submit without errors. | PASS |
+| | Google Map display | Scroll to the Visit Us section on the home page. | The embedded Google Map should load and display the club location. | PASS |
+| | Address & opening hours | View the Visit Us card on the home page. | The club address, opening hours, email, and phone number should be displayed. | PASS |
+| | Email link | Click the email address link in the contact section. | The user's default email client should open with the club email pre-filled. | PASS |
+| | Phone link | Click the phone number link in the contact section. | The device should initiate or prompt a phone call to the club number. | PASS |
+| **Booking Form** | Booking page display | Navigate to the Book page. | The booking form should display with all fields: Name, Email, Booking Type, Date & Time, and Notes. | PASS |
+| | Booking type dropdown | Click the Booking Type dropdown on the Book page. | The options Private Lesson, Group Class, Tournament Entry, and Facility Booking should be shown. | PASS |
+| | Date & time picker | Click the Preferred Date & Time field on the Book page. | A date and time picker should appear allowing the user to select a date and time. | PASS |
+| | Submit with empty required fields | Click "Submit Booking" without filling in any fields. | The user should be prompted to fill in the first missing required field. | PASS |
+| | Submit with missing name | Fill in all fields except Name and click "Submit Booking". | The user should be directed to fill in the Name field. | PASS |
+| | Submit with missing email | Fill in all fields except Email and click "Submit Booking". | The user should be directed to fill in the Email field. | PASS |
+| | Submit with invalid email | Enter an invalid email and attempt to submit the booking form. | The browser should prompt the user to enter a valid email address. | PASS |
+| | Submit with missing booking type | Fill in all fields except Booking Type and click "Submit Booking". | The user should be directed to select a booking type. | PASS |
+| | Submit with missing date/time | Fill in all fields except Date & Time and click "Submit Booking". | The user should be directed to fill in the date and time field. | PASS |
+| | Submit without optional notes | Fill in all required fields, leave Notes empty, and click "Submit Booking". | The form should submit without any issues. | PASS |
+| | Submit with all fields valid | Fill in all fields with valid data and click "Submit Booking". | The form should submit successfully. | PASS |
+| **Join Form** | Join page display | Navigate to the Join page. | The join form should display with all fields: Full Name, Email, Age Group, and Tell Us About Yourself. | PASS |
+| | Age group dropdown | Click the Age Group dropdown on the Join page. | The options Under 12, 13–17, 18–30, and 30+ should be shown. | PASS |
+| | Submit with empty required fields | Click "Join Now" without filling in any fields. | The user should be prompted to fill in the first missing required field. | PASS |
+| | Submit with missing name | Fill in all fields except Full Name and click "Join Now". | The user should be directed to fill in the Full Name field. | PASS |
+| | Submit with missing email | Fill in all fields except Email and click "Join Now". | The user should be directed to fill in the Email field. | PASS |
+| | Submit with invalid email | Enter an invalid email and attempt to submit the join form. | The browser should prompt the user to enter a valid email address. | PASS |
+| | Submit with missing age group | Fill in all fields except Age Group and click "Join Now". | The user should be directed to select an age group. | PASS |
+| | Submit without optional textarea | Fill in all required fields, leave "Tell Us About Yourself" empty, and click "Join Now". | The form should submit without any issues. | PASS |
+| | Submit with all fields valid | Fill in all fields with valid data and click "Join Now". | The form should submit successfully. | PASS |
+| **Footer** | Footer display | Scroll to the bottom of any page. | The footer should display with social media icons and copyright text. | PASS |
+| | Facebook link | Click the Facebook icon in the footer. | A new tab/window should open to the Facebook website. | PASS |
+| | Instagram link | Click the Instagram icon in the footer. | A new tab/window should open to the Instagram website. | PASS |
+| | Twitter link | Click the Twitter icon in the footer. | A new tab/window should open to the Twitter website. | PASS |
+| | Social links open in new tab | Click any social media icon in the footer. | The link should open in a new tab (target="_blank"). | PASS |
+| | Copyright text | View the footer on any page. | The text "© 2025 Chess Club. All rights reserved." should be displayed. | PASS |
+| **Browser Compatibility** | Chrome | Open the website in Google Chrome. | All pages should render correctly with full functionality. | PASS |
+| | Firefox | Open the website in Mozilla Firefox. | All pages should render correctly with full functionality. | PASS |
+| | Safari | Open the website in Safari. | All pages should render correctly with full functionality. | PASS |
+| | Edge | Open the website in Microsoft Edge. | All pages should render correctly with full functionality. | PASS |
+
+---
+
 ## 📬 Contact
 
 Built with care by **Christopher Quinones**.
