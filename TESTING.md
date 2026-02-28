@@ -4,34 +4,13 @@ This document provides automated testing and validation evidence for each page o
 
 ---
 
-## 📁 Screenshot Folder Structure
-
-```
-docs/testing/
-├── validation/
-│   ├── html/
-│   │   ├── validation-index.png
-│   │   ├── validation-book.png
-│   │   └── validation-join.png
-│   └── css/
-│       └── validation-css.png
-├── home-page/
-│   └── lighthouse-home.png
-├── book-page/
-│   └── lighthouse-book.png
-└── join-page/
-    └── lighthouse-join.png
-```
-
----
-
 ## 1. 🔍 HTML Validation (W3C)
 
 All HTML pages were validated using the [W3C Markup Validation Service](https://validator.w3.org/).
 
 ### Home Page (`index.html`)
 
-![HTML validation for index.html](docs/testing/validation/html/validation-index.png)
+![HTML validation for index.html](docs/testing/validation/html/validation-index.png.png)
 
 | Page | Result |
 |------|--------|
@@ -61,6 +40,8 @@ CSS was validated using the [W3C CSS Validation Service (Jigsaw)](https://jigsaw
 
 ![CSS validation for style.css](docs/testing/validation/css/validation-css.png)
 
+![CSS validation for style.css](docs/testing/validation/css/validation--css.png)
+
 | File | Result |
 |------|--------|
 | `assets/css/style.css` | ✅ PASS — No errors |
@@ -71,7 +52,13 @@ CSS was validated using the [W3C CSS Validation Service (Jigsaw)](https://jigsaw
 
 Lighthouse was run on the home page to audit performance, accessibility, best practices, and SEO.
 
-![Lighthouse report for Home Page](docs/testing/home-page/lighthouse-home.png)
+![Lighthouse report for Home Page 1](docs/testing/home-page/automated-test-lighthouse1.png)
+
+![Lighthouse report for Home Page 2](docs/testing/home-page/automated-test-lighthouse2.png)
+
+![Lighthouse report for Home Page 3](docs/testing/home-page/automated-test-lighthouse3.png)
+
+![Lighthouse report for Home Page 4](docs/testing/home-page/automated-terst-lighthouse4.png)
 
 | Category | Score |
 |----------|-------|
@@ -86,14 +73,18 @@ Lighthouse was run on the home page to audit performance, accessibility, best pr
 
 Lighthouse was run on the booking page to audit performance, accessibility, best practices, and SEO.
 
-![Lighthouse report for Book Page](docs/testing/book-page/lighthouse-book.png)
+![Lighthouse report for Book Page 1](docs/testing/book-page/automated-test-lighthouse.png)
+
+![Lighthouse report for Book Page 2](docs/testing/book-page/Screenshot%202026-02-28%20at%2020.21.57.png)
+
+![Lighthouse report for Book Page 3](docs/testing/book-page/Screenshot%202026-02-28%20at%2020.22.04.png)
 
 | Category | Score |
 |----------|-------|
 | Performance | — |
 | Accessibility | — |
 | Best Practices | — |
-| SEO | — |
+| SEO | �� |
 
 ---
 
@@ -101,7 +92,11 @@ Lighthouse was run on the booking page to audit performance, accessibility, best
 
 Lighthouse was run on the join page to audit performance, accessibility, best practices, and SEO.
 
-![Lighthouse report for Join Page](docs/testing/join-page/lighthouse-join.png)
+![Lighthouse report for Join Page 1](docs/testing/join-page/automated-test-lighthouse-.png)
+
+![Lighthouse report for Join Page 2](docs/testing/join-page/automated-test-lighthosue-2.png)
+
+![Lighthouse report for Join Page 3](docs/testing/join-page/autoamted-test-lighthouse-3.png)
 
 | Category | Score |
 |----------|-------|
@@ -109,33 +104,6 @@ Lighthouse was run on the join page to audit performance, accessibility, best pr
 | Accessibility | — |
 | Best Practices | — |
 | SEO | — |
-
----
-
-## 📌 How to Add Your Screenshots
-
-### HTML Validation
-1. Go to [https://validator.w3.org/](https://validator.w3.org/)
-2. Paste the HTML code (or upload the file) for each page
-3. Screenshot the results
-4. Save as `validation-index.png`, `validation-book.png`, `validation-join.png`
-5. Place them in `docs/testing/validation/html/`
-
-### CSS Validation
-1. Go to [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
-2. Paste the CSS code (or upload `style.css`)
-3. Screenshot the results
-4. Save as `validation-css.png`
-5. Place it in `docs/testing/validation/css/`
-
-### Lighthouse
-1. Open each page in **Chrome** → **DevTools** (F12) → **Lighthouse** tab
-2. Select: Performance, Accessibility, Best Practices, SEO
-3. Click **Analyze page load**
-4. Screenshot the results
-5. Save as `lighthouse-home.png`, `lighthouse-book.png`, `lighthouse-join.png`
-6. Place them in the matching `docs/testing/` subfolder
-7. Fill in the scores in the tables above
 
 ---
 
