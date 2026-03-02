@@ -391,6 +391,117 @@ The main users of the site will be:
 2. As a club admin, I want clear navigation labels so new visitors can find key actions (Book, Join) without support.
 3. As a club admin, I want consistent styling across pages so the club brand looks professional.
 
+---
+
+## 🚀 Deployment
+
+### Local Setup
+
+#### Prerequisites
+- A code editor (e.g., VS Code, Sublime Text)
+- A web browser (Chrome, Firefox, Safari, etc.)
+- Git (for version control and cloning the repository)
+
+#### Installation Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/mile-stone-project1.git
+   cd mile-stone-project1
+   ```
+
+2. **Open the Project**
+   - Open the project folder in your code editor
+   - Alternatively, navigate to the project directory in your terminal
+
+3. **Start a Local Server**
+   - Using Python (recommended for simplicity):
+     ```bash
+     # Python 3.x
+     python -m http.server 8000
+     # Or Python 2.x
+     python -m SimpleHTTPServer 8000
+     ```
+   - Using Node.js (if installed):
+     ```bash
+     npx http-server
+     ```
+
+4. **Access the Website**
+   - Open your web browser and navigate to:
+     - `http://localhost:8000` (for Python)
+     - `http://localhost:8080` (for Node.js)
+   - You should now see the Chess Club website
+
+5. **Development**
+   - Edit HTML files (`index.html`, `book.html`, `join.html`)
+   - Modify CSS styles in `assets/css/style.css`
+   - Add or update images in `assets/images/`
+   - Refresh your browser to see changes
+
+### GitHub Deployment
+
+#### Steps to Deploy on GitHub
+
+1. **Create a GitHub Repository**
+   - Go to [GitHub.com](https://github.com) and sign in
+   - Click the **+** icon and select **New repository**
+   - Name it `mile-stone-project1` (or your preferred name)
+   - Add an optional description
+   - Choose **Public** for open-source or **Private** for restricted access
+   - Click **Create repository**
+
+2. **Initialize Git in Your Local Project** (if not already done)
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: Chess Club Website"
+   ```
+
+3. **Add Remote Origin**
+   ```bash
+   git remote add origin https://github.com/yourusername/mile-stone-project1.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+4. **Enable GitHub Pages**
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under **Source**, select **Deploy from a branch**
+   - Choose the branch: **main** (or **master**)
+   - Select the folder: **/ (root)**
+   - Click **Save**
+   - Your site will be available at: `https://yourusername.github.io/mile-stone-project1/`
+
+5. **Verify Deployment**
+   - Wait 1-2 minutes for GitHub Pages to build and deploy
+   - Visit your GitHub Pages URL to confirm the site is live
+   - Check the **Deployments** tab in your repository for status
+
+#### Making Updates After Deployment
+
+1. **Make local changes** to your HTML, CSS, or images
+2. **Commit and push** your changes:
+   ```bash
+   git add .
+   git commit -m "Update: [description of changes]"
+   git push origin main
+   ```
+3. **GitHub Pages will automatically redeploy** within minutes
+
+### Deployment Troubleshooting
+
+- **Site not appearing on GitHub Pages?**
+  - Ensure the repository is public (or Pages is enabled for private repos)
+  - Check that the branch and folder settings are correct in Pages settings
+  - Wait a few minutes and refresh your browser
+
+- **Changes not reflecting?**
+  - Clear your browser cache (Ctrl+Shift+Delete or Cmd+Shift+Delete)
+  - Check the GitHub Actions tab for any build errors
+  - Verify your commit was successfully pushed
+
 
 
 
