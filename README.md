@@ -269,6 +269,9 @@ To update content:
 
 ## 🧪 Testing
 
+> 📄 **Full testing documentation is available in [TESTING.md](TESTING.md).**
+> This includes manual test results, Lighthouse performance reports, and W3C HTML/CSS validation results for all pages.
+
 ### Manual Testing
 
 The following tests were carried out manually across all pages of the Chess Club website to ensure functionality, usability, and responsiveness.
