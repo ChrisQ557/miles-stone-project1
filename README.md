@@ -230,6 +230,12 @@ The main demographic for the site is chess enthusiasts and potential members loo
 
 ---
 
+## 👀 View the Project
+
+- [View the deployed website](https://chrisq557.github.io/miles-stone-project1/)
+
+---
+
 ## 🎨 Customisation
 
 You can easily adapt this template for:
