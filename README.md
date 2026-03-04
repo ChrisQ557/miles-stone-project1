@@ -4,6 +4,24 @@ Welcome to the **Chess Club Website** — a modern, responsive site built for ch
 
 ---
 
+## 📚 Table of Contents
+
+- [🌟 Overview](#-overview)
+- [🎯 Intended Users](#-intended-users)
+- [📖 User Stories](#-user-stories)
+- [🧱 Features](#-features)
+- [📁 Folder Structure](#-folder-structure)
+- [💡 Pages Breakdown](#-pages-breakdown)
+- [🧰 Technologies Used](#-technologies-used)
+- [🌐 How to Use](#-how-to-use)
+- [👀 View the Project](#-view-the-project)
+- [🎨 Customisation](#-customisation)
+- [🧪 Testing](#-testing)
+- [📬 Contact](#-contact)
+- [🙌 Acknowledgements](#-acknowledgements)
+
+---
+
 ## 🌟 Overview
 
 This website serves as a hub for a chess club community. Visitors can:
@@ -224,9 +242,6 @@ The main demographic for the site is chess enthusiasts and potential members loo
 2. Navigate to the folder and open `index.html` in your browser.
 
 3. No build step or dependencies needed — it's pure HTML/CSS with Bootstrap CDN.
-
-## 👀 View the Project
-- [View the deployed website](https://chrisq557.github.io/miles-stone-project1/)
 
 ---
 
