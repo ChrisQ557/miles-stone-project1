@@ -251,6 +251,28 @@ The main demographic for the site is chess enthusiasts and potential members loo
 
 ---
 
+## 📸 Screenshots
+
+![Screenshot 1](docs/screenshots/Screenshot%202026-03-04%20at%2018.01.41.png)
+
+![Screenshot 2](docs/screenshots/Screenshot%202026-03-04%20at%2018.04.14.png)
+
+![Screenshot 3](docs/screenshots/Screenshot%202026-03-04%20at%2018.04.21.png)
+
+![Screenshot 4](docs/screenshots/Screenshot%202026-03-04%20at%2018.10.09.png)
+
+![Screenshot 5](docs/screenshots/Screenshot%202026-03-04%20at%2018.10.14.png)
+
+![Screenshot 6](docs/screenshots/Screenshot%202026-03-04%20at%2018.10.20.png)
+
+![Screenshot 7](docs/screenshots/Screenshot%202026-03-04%20at%2018.10.31.png)
+
+![Screenshot 8](docs/screenshots/Screenshot%202026-03-04%20at%2018.10.46.png)
+
+![Screenshot 9](docs/screenshots/Screenshot%202026-03-04%20at%2018.11.24.png)
+
+---
+
 ## 🎨 Customisation
 
 You can easily adapt this template for:
